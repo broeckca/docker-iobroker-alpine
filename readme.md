@@ -8,7 +8,7 @@ Docker image for http://www.iobroker.net
 
 Base on node:6-alpine,
 
-Minimal package installed
+Minimal package installed 118MB compressed
 
 # Run IoBroker
 ```
