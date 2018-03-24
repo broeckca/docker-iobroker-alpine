@@ -19,7 +19,7 @@ $ docker run --name iobroker -d -p 8081:8081 -p 8082:8082 -p 1880:8083 -it salen
 
 # Version v1.1
 * update version
-# Version v1.0.3
+## v1.0.3
 * update version
 ## v1.0.3
 * Fix admin vis install.
