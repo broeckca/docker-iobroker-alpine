@@ -3,12 +3,12 @@
 
 Docker image for http://www.iobroker.net  
 
- iobroker.vis v1.1.2
- ioBroker.admin v3.3.3
+ iobroker.vis v1.1.4
+ ioBroker.admin v3.4.6
 
 Base on node:6-alpine,
 
-Minimal package installed 118MB compressed
+Package compressed size 119MB
 
 # Run IoBroker
 ```
@@ -17,15 +17,15 @@ $ docker run --name iobroker -d -p 8081:8081 -p 8082:8082 -p 1880:8083 -it salen
 
 ## Notes
 
-# Version v1.1
-* update version
-## v1.0.3
-* update version
-## v1.0.3
+## Update
+* Update v1.2
+* Update v1.1
+* update v1.0.3
+## Fix version v1.0.3
 * Fix admin vis install.
-## v1.0.2
+## Fix version v1.0.2
 * Fix Hostname.
-## v1.0.1
+## Fix version v1.0.1
 * Fix error start IoBroker.
 * Fix serialport.
 ## v1.0.0
