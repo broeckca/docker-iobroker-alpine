@@ -19,6 +19,9 @@ ADD scripts/iobroker_startup.sh iobroker_startup.sh
 RUN chmod +x iobroker_startup.sh
 
 WORKDIR /opt/iobroker/
+# The next two line it is temporaly
+RUN npm install unix-dgram@0.2.3 --build-from-source --unsafe-perm
+RUN npm install serialport@6.2.2 --build-from-source --unsafe-perm
 RUN npm install iobroker --unsafe-perm && echo $(hostname) > .install_host
 #RUN update-rc.d iobroker.sh remove
 
