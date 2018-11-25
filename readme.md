@@ -15,6 +15,10 @@ Package compressed size 119MB
 ```
 $ docker run --name iobroker -d -p 8081:8081 -p 8082:8082 -p 8083:8083 -it salenss/iobroker
 ```
+```
+```
+
+open in browser  <http://0.0.0.0:8081>
 
 ## Notes
 
