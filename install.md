@@ -1,5 +1,6 @@
 # Build container
 ```
+$ docker build -t salenss/iobroker .
 $ docker build -t salenss/iobroker-alpine .
 ```
 
