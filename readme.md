@@ -5,7 +5,10 @@ Docker image for http://www.iobroker.net
 
  * iobroker 1.1.2
  * iobroker.vis v1.1.8
- * ioBroker.admin v3.4.7
+ * ioBroker.admin v3.5.10
+ * iobroker.discovery 1.2.4
+ * iobroker.js-controller 1.5.3
+
 
 Base on node:6-alpine,  
 
