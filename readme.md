@@ -3,21 +3,26 @@
 
 Docker image for http://www.iobroker.net  
 
- iobroker 1.1.2
- iobroker.vis v1.1.8
- ioBroker.admin v3.4.7
+ * iobroker 1.1.2
+ * iobroker.vis v1.1.8
+ * ioBroker.admin v3.4.7
 
 Base on node:6-alpine,
 
 Package compressed size 119MB
 
+## Note
+Select All in adapters to check more adapters.
+
 ## Run IoBroker
 ```
 $ docker run --name iobroker -d -p 8081:8081 -p 8082:8082 -p 8083:8083 -it salenss/iobroker
-```
-<p> open in browser  <http://0.0.0.0:8081> </p>
+```  
+
+Open in browser  <http://0.0.0.0:8081>
 
 ## Update
+* Update v1.5 ( Update package).
 * Update v1.4
 * Update v1.3
 * Update v1.2
@@ -31,7 +36,7 @@ ___
 
 # The MIT License (MIT)
 
-<p>Please notice that the adapters have their respective licenses.
+Please notice that the adapters have their respective licenses.
 
 Copyright (c) 2014-2018 bluefox dogafox@gmail.com,
 
